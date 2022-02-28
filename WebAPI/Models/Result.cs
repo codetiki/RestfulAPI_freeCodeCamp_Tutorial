@@ -20,7 +20,8 @@ namespace WebAPI.Models
         public string DateOfJoining { get; set; }
         public string PhotoFileName { get; set; }
 
-        // Luokkien 
+        // ORM käyttää niitä kartoittamaan Result ja ForceType välistä suhdetta
+        // Se osoittaa, että Result:lla on yksi ja vain yksi ForceType.
         public int ForceTypeId { get; set; }
         public ForceType ForceType { get; set; }
 

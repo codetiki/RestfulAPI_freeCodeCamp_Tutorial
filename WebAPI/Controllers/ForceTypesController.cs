@@ -13,6 +13,8 @@ using WebAPI.Extensions;
 namespace WebAPI.Controllers
 {
     [Route("/api/[controller]")]
+    // perii tämän luokan Controller-luokasta, joka on määritetty nimiavaruudessa Microsoft.AspNetCore.Mvc
+    // Nimiavaruus koostuu joukosta toisiinsa liittyviä luokkia, rajapintoja, enumeita ja rakenteita. 
     public class ForceTypesController : Controller
     {
         private readonly IForceTypeService _forceTypeService;

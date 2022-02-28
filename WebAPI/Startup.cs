@@ -34,6 +34,7 @@ namespace WebAPI
 
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        // Ajonaika kutsuu t‰t‰ menetelm‰‰. K‰yt‰ t‰t‰ menetelm‰‰ palveluiden lis‰‰miseen s‰ilˆˆn.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -63,6 +64,7 @@ namespace WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // Ajonaika kutsuu t‰t‰ menetelm‰‰. K‰yt‰ t‰t‰ tapaa m‰‰ritt‰‰ksesi HTTP-pyyntˆputken.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

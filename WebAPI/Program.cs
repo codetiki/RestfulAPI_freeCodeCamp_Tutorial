@@ -14,6 +14,7 @@ namespace WebAPI
 {
     public class Program
     {
+        // sovellus käynnistyy
         public static void Main(string[] args)
         {
             // CreateHostBuilder(args).Build().Run();
